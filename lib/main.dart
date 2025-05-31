@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'screens/welcome_screen.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key}); // <-- Si usas const, también usa en el test
+  const MyApp({super.key}); 
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Aquí habilitas el banner de debug
+      debugShowCheckedModeBanner: false,
       home: WelcomeScreen(),
     );
   }
